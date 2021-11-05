@@ -79,6 +79,13 @@ After finishing your required elements, you can push your work further. These go
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. Put your answers underneath the questions:
 
 1. What is React JS and what problems does it solve? Support your answer with concepts introduced in class and from your personal research on the web.
+  React is a framework which was developed to solve the complexities of manual DOM manipulation via abstraction. It abstracts away a lot of the 'class' uses of mounting components as well, something many online tutorials already assume the developer is familiar with.
+
 1. Describe component state.
+  Component state is data that the end user dynamically changes over the course of the browsing experience. On the dev side, it is how we can tell React to render parts of the DOM rather than the DOM in its' entirety, allowing for a better overall experience.
+
 1. Describe props.
+  Props are 'properties' passed from a parent component to a child component. They are how we can manipulate data being pulled in from different sources and work similar to object keys.
+
 1. What are side effects, and how do you sync effects in a React component to changes of certain state or props?
+  Side effects are any time you change something in the DOM; you sync effects in components by passing in state or props to useEffect's optional dependancy array (the second argument of the function).
