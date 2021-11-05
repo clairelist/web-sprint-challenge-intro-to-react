@@ -7,6 +7,10 @@ const Character = (props) => {
     return(
         <div className='character-wrapper'>
             <h3>{character.name} </h3>
+          <div>
+          <p>Geboren: {character.birth_year}</p>
+          </div>
+            
            
         </div>
        

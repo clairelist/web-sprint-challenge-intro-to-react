@@ -7,3 +7,24 @@
   text-shadow: 1px 1px 5px #fff;
 }
 /* write your parent styles in here for your App.js */
+
+.character-wrapper {
+  display: flex;
+  
+  justify-content: space-evenly;
+ 
+  border-bottom: 2px solid red;
+}
+
+.character-wrapper p:hover {
+  color: sienna;
+}
+
+
+.character-wrapper h3:hover {
+  color: gold;
+}
+
+.characters-wrapper h2:hover{
+  color: sienna;
+}
